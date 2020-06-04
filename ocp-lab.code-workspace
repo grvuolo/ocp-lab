@@ -1,0 +1,29 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		}
+	],
+	"launch": {
+		"configurations": [
+			{
+				"type": "node",
+				"request": "launch",
+				"name": "Launch Program",
+				"skipFiles": [
+					"<node_internals>/**"
+				],
+				"program": "${workspaceFolder}/appsody_sample_nodejs-express/app.js"
+			},
+			{
+				"type": "node",
+				"name": "Debug appsody_sample_nodejs-express",
+				"request": "attach",
+				"address": "127.0.0.1",
+				"localRoot": "/Users/grvuolo/OpenShift/vscode_workspace/appsody_sample_nodejs-express",
+				"remoteRoot": "/project/user-app",
+				"restart": true
+			}
+		]
+	}
+}
