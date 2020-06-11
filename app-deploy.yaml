@@ -5,6 +5,10 @@ metadata:
     architecture: x86_64
     authoritative-source-url: registry.access.redhat.com
     build-date: 2020-01-30T08:16:17.662981
+    commit.image.appsody.dev/author: Giovanni-Rafael-Vuolo1 <giovanni.rafael.vuolo1@ibm.com>
+    commit.image.appsody.dev/committer: Giovanni-Rafael-Vuolo1 <giovanni.rafael.vuolo1@ibm.com>
+    commit.image.appsody.dev/date: Thu Jun 4 12:42:05 2020 +0200
+    commit.image.appsody.dev/message: last change
     commit.stack.appsody.dev/author: kilnerm <38245247+kilnerm@users.noreply.github.com>
     commit.stack.appsody.dev/committer: GitHub <noreply@github.com>
     commit.stack.appsody.dev/contextDir: /incubator/nodejs-express
@@ -14,7 +18,11 @@ metadata:
       Express collection
     distribution-scope: public
     help: For more information visit https://github.com/sclorg/s2i-nodejs-container
-    image.opencontainers.org/created: "2020-06-03T10:25:12+02:00"
+    image.opencontainers.org/created: "2020-06-11T11:28:31+02:00"
+    image.opencontainers.org/documentation: https://github.com/grvuolo/ocp-lab
+    image.opencontainers.org/revision: 499648f594bb208d7fe32e89b3e9630986d43bcb-modified
+    image.opencontainers.org/source: https://github.com/grvuolo/ocp-lab/tree/master
+    image.opencontainers.org/url: https://github.com/grvuolo/ocp-lab
     k8s.io/description: Node.js 10 available as container is a base platform for building
       and running various Node.js 10 applications and frameworks. Node.js is a platform
       built on Chrome's JavaScript runtime for easily building fast, scalable network
@@ -59,7 +67,7 @@ metadata:
     stack.appsody.dev/id: nodejs-express
     stack.appsody.dev/version: 0.2.10
   name: appsody-sample-nodejs-express
-  namespace: kabanero-nodejs
+  namespace: kabanero-nodejs-ejemplo
 spec:
   applicationImage: dev.local/appsody-sample-nodejs-express
   createKnativeService: false
